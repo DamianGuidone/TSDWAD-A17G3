@@ -1,7 +1,7 @@
-DuenoPerro = [28957346, "Juan", "Perez", 4789689, "Belgrano 101"]
-dni = DuenoPerro[0]
+Dueno = [28957346, "Juan", "Perez", 4789689, "Belgrano 101"]
+dni = Dueno[0]
 if dni > 26000000:
-    print(DuenoPerro)
+    print(Dueno)
 else:
-    DuenoPerro.remove(4789689)
-    print(DuenoPerro)
+    Dueno.remove(4789689)
+    print(Dueno)
